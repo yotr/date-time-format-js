@@ -227,8 +227,5 @@ const formatDateAndTime = (date, type) => {
     }
 }
 
-
-const date = new Date();
-
-console.log(formatTime(d, 'h:m:s'))
-
+// export functions
+module.exports = { formatDate, formatTime, formatDateAndTime };

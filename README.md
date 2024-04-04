@@ -67,10 +67,12 @@ npm install date-time-format-js
 # 🚀 Examples
 
 ```bash
+import { formatDate ,formatTime ,formatDateAndTime } from 'date-time-format-js';
+
 const date = new Date();
 
-console.log(formatDate(date, 'year-month-day'))
-console.log(formatTime(date, 'h:m:s'))
-console.log(formatDateAndTime(date, 'local'))
+console.log(formatDate(date, 'year-month-day')) // 2024-04-04
+console.log(formatTime(date, 'h:m:s')) // 5:34:9 AM
+console.log(formatDateAndTime(date, 'local')) // 4/4/2024, 6:47:34 PM
 
 ```

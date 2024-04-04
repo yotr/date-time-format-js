@@ -66,10 +66,13 @@ npm install date-time-format-js
 
 - ts
 
-````bash
+```bash
 npm install date-time-format-ts
 
+```
+
 # 🚀 Examples
+
 
 ```bash
 import { formatDate ,formatTime ,formatDateAndTime } from 'date-time-format-js';

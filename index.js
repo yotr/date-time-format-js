@@ -228,8 +228,7 @@ const formatDateAndTime = (date, type) => {
 }
 
 
-const d = new Date();
+const date = new Date();
 
 console.log(formatTime(d, 'h:m:s'))
-
 

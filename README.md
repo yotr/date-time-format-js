@@ -1,4 +1,4 @@
-# date-time-format-js package
+# date-time-format-js
 
 ## javascript formating functions for all types of date and time formats
 
@@ -62,4 +62,15 @@ There are three functions that take two parameters (date and type)
 
 ```bash
 npm install date-time-format-js
+```
+
+# 🚀 Examples
+
+```bash
+const date = new Date();
+
+console.log(formatDate(date, 'year-month-day'))
+console.log(formatTime(date, 'h:m:s'))
+console.log(formatDateAndTime(date, 'local'))
+
 ```

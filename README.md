@@ -64,12 +64,6 @@ There are three functions that take two parameters (date and type)
 npm install date-time-format-js
 ```
 
-- ts
-
-```bash
-npm install date-time-format-ts
-
-```
 
 # 🚀 Examples
 

@@ -2,4 +2,4 @@
 
 ## javascript formating functions for all types of date and time formats
 
-![alt text](date-time-format-js.png)
+![alt text](https://github.com/yotr/date-time-format-js/blob/main/date-time-format-js.png)

@@ -37,6 +37,25 @@ There are three functions that take two parameters (date and type)
 | `long` | Thursday, Apr 4, 2024 |
 | `short` | Thu, Apr 4, 2024 |
 
+-  Types for formatTime(date,type); function
+
+| Type | Output |
+| --- | --- |
+| `h:m` | 5:34 AM |
+| `h:m:s` | 5:34:9 AM |
+| `hh:mm` | 05:34 AM |
+| `hh:mm:ss` | 7:38:05 AM |
+
+-  Types for formatDateAndTime(date,type); function
+
+| Type | Output |
+| --- | --- |
+| `general` | Thu Apr 04 2024 18: 41: 43 GMT +0200(Eastern European Standard Time) |
+| `local` | 4/4/2024, 6:47:34 PM |
+| `gmt` | Thu, 04 Apr 2024 16:41:43 GMT |
+| `utc` | Thu, 04 Apr 2024 16:41:43 GMT |
+| `iso` | 2024-04-04T16:41:43.208Z |
+
 # 🤸 Quick Start
 
 - js
